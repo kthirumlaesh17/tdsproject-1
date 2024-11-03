@@ -5,7 +5,7 @@ Project Overview
 - This project aims to analyze GitHub users based in Basel who have more than 10 followers. By leveraging the GitHub API, we gather user information and their public repositories to uncover insights into user engagement, repository activity, and the impact of licensing on repository visibility.
 - I used the GitHub API to find users in Basel with over 10 followers. For each user, I fetched their details and up to 500 recent repositories, compiling the results into users.csv and repositories.csv while cleaning and formatting the data accordingly.
 - Licensed repositories have a consistent average count for both stargazers and watchers, indicating a potential positive impact of having a license.
-- Developers should add licenses to their repositories. Licensed projects tend to attract more stargazers and watchers, indicating that clear usage rights enhance engagement and contribute to a more vibrant community around their work. 
+- Developers should add licenses to their repositories. Licensed projects tend to attract more stargazers and watchers, indicating that clear        usage rights enhance engagement and contribute to a more vibrant community around their work. 
 -The collected data was meticulously cleaned and formatted:
 -Trimming whitespace from company names
 -Stripping leading @ symbols from company names
