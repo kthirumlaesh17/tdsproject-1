@@ -6,3 +6,9 @@ Project Overview
 - I used the GitHub API to find users in Basel with over 10 followers. For each user, I fetched their details and up to 500 recent repositories, compiling the results into users.csv and repositories.csv while cleaning and formatting the data accordingly.
 - Licensed repositories have a consistent average count for both stargazers and watchers, indicating a potential positive impact of having a license.
 - Developers should add licenses to their repositories. Licensed projects tend to attract more stargazers and watchers, indicating that clear usage rights enhance engagement and contribute to a more vibrant community around their work. 
+-The collected data was meticulously cleaned and formatted:
+
+-Trimming whitespace from company names
+-Stripping leading @ symbols from company names
+-Converting company names to uppercase for consistency
+-Representing boolean values as true, false, or empty strings for null values
