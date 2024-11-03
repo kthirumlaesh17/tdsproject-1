@@ -11,3 +11,5 @@ Project Overview
 -Stripping leading @ symbols from company names
 -Converting company names to uppercase for consistency
 -Representing boolean values as true, false, or empty strings for null values
+-The analysis underscores the importance of user engagement and the potential positive effects of licensing on repository visibility.
+-Through the effective use of the GitHub API, this project provides valuable insights that can guide developers in enhancing their presence and impact on the platform.
