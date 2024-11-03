@@ -5,11 +5,12 @@ Project Overview
 - This project aims to analyze GitHub users based in Basel who have more than 10 followers. By leveraging the GitHub API, we gather user information and their public repositories to uncover insights into user engagement, repository activity, and the impact of licensing on repository visibility.
 - I used the GitHub API to find users in Basel with over 10 followers. For each user, I fetched their details and up to 500 recent repositories, compiling the results into users.csv and repositories.csv while cleaning and formatting the data accordingly.
 - Licensed repositories have a consistent average count for both stargazers and watchers, indicating a potential positive impact of having a license.
-- Developers should add licenses to their repositories. Licensed projects tend to attract more stargazers and watchers, indicating that clear        usage rights enhance engagement and contribute to a more vibrant community around their work. 
--The collected data was meticulously cleaned and formatted:
--Trimming whitespace from company names
--Stripping leading @ symbols from company names
--Converting company names to uppercase for consistency
--Representing boolean values as true, false, or empty strings for null values
--The analysis underscores the importance of user engagement and the potential positive effects of licensing on repository visibility.
--Through the effective use of the GitHub API, this project provides valuable insights that can guide developers in enhancing their presence and impact on the platform.
+- Trimming whitespace from company names
+- Stripping leading @ symbols from company names
+- Converting company names to uppercase for consistency
+- Representing boolean values as true, false, or empty strings for null values
+- The analysis underscores the importance of user engagement and the potential positive effects of licensing on repository visibility.
+- Through the effective use of the GitHub API, this project provides valuable insights that can guide developers in enhancing their presence and   impact on the platform.
+- The analysis underscores the importance of user engagement and the potential positive effects of licensing on repository visibility.
+- Through the effective use of the GitHub API, this project provides valuable insights that can guide developers in enhancing their presence and impact on the platform.
+- Special thanks to GitHub for providing a comprehensive API that allows developers to access valuable user and repository data, enabling insightful analyses and contributions to the open-source community.
